@@ -1,0 +1,32 @@
+html, body, .App, #root, .main-cont {
+  height: 100%;
+}
+.main-cont {
+  background-image: linear-gradient(to right top,
+      #000000,
+      #0d0d0d,
+      #161616,
+      #1d1d1d,
+      #242424,
+      #2d2d2d,
+      #373737,
+      #414141,
+      #505050,
+      #5f5f5f,
+      #6e6e6e,
+      #7e7e7e);
+
+  height: 100%;
+}
+
+.ani {
+  transition: 0.4s;
+}
+
+.ani:hover {
+  transform: scale(1.05);
+}
+
+.main {
+  filter: drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.4));
+}
