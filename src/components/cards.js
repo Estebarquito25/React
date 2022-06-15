@@ -9,11 +9,11 @@ import image3 from '../assets/image3.jpg'
 export default class NotesList extends Component {
   render() {
     return (
-      <div className='container-fluid main-cont'>
+      <div className='container-fluid'>
         <div className='row'>
-          <nav class="navbar navbar-dark bg-dark p-0 animate__animated animate__fadeInDown">
-            <div class="container-fluid">
-              <span class="navbar-text">
+          <nav className="navbar navbar-dark bg-dark p-0 animate__animated animate__fadeInDown">
+            <div className="container-fluid">
+              <span className="navbar-text">
                 <h5>PROYECTO SOLAR</h5>
               </span>
             </div>
@@ -21,7 +21,7 @@ export default class NotesList extends Component {
         </div>
         <div className='row'>
           <div className='container-fluid'>
-            <div className='container d-flex justify-content-center align-items-center p-5'>
+            <div className='container justify-content-center align-items-center p-5'>
               <div className='row'>
                 <div className='col-md-4 ani'>
                   <div className='card text-center bg-dark animate__animated animate__fadeInDown cards'>

@@ -3,7 +3,7 @@ import {BrowserRouter as Router,Route} from 'react-router-dom'
 
 
 //Importo desde ./components/.. cualquier vista creada en la carpeta
-import Navigation from './components/Navigation'
+// import Navigation from './components/Navigation'
 import cards from './components/cards'
 import formulario from './components/form'
 import table from './components/table'
@@ -14,7 +14,6 @@ function App() {
   return (
     <div className='App'>
       <Router>
-        
    
         <Route path='/' exact component={cards}/>
         <Route path='/edit/:id'component={formulario}/>

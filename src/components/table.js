@@ -6,7 +6,7 @@ export default class CreateUser extends Component {
       <div className='container d-flex justify-content-center align-items-center h-100 p-4'>
         <div className='container d-flex justify-content-center align-items-center '>
           <div className='row border border-3 p-4 main' style={{ borderRadius: '1vw' }} >
-            <table class="table text-light">
+            <table className="table text-light">
               <thead>
                 <tr>
                   <th scope="col"></th>
