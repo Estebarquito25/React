@@ -1,7 +1,7 @@
 html, body, .App, #root, .main-cont {
   height: 100%;
 }
-.main-cont {
+.App{
   background-image: linear-gradient(to right top,
       #000000,
       #0d0d0d,
